@@ -1,0 +1,9 @@
+{
+    "plugins": [
+      ["@babel/plugin-transform-react-jsx", {
+        "pragma": "MiniReact.createElement", // default pragma is React.createElement
+        "pragmaFrag":"MiniReact.createElement",
+        "throwIfNamespace": false // defaults to true
+      }]
+    ]
+  }
